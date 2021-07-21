@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://wallpaperaccess.com/full/1567838.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    color:black; 
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Shadows Into Light',
+    cursive;
+    padding: 50px;
+}
+
+section{
+     height: 250px;
+     width: 500px;
+     background-color: rgba(129, 136, 140, 0.5);
+     box-shadow: 10px 10px 10px rgba(43, 41, 41, 0.058);
+    margin: 50px 250px;
+}
+
+.container{
+    padding: 40px 0 5px 0;
+}
+
+form {
+    text-align: center;
+   justify-content: center;
+
+}
+
+.form-control {
+    max-width: 250px;
+    text-align: center;
+  padding: 10px 20px;
+  border-radius: 12px; 
+  font-size: medium;
+  background-color:rgb(17, 16, 16);
+  color: white;
+  font-family: 'Great Vibes',
+  cursive;
+  font-size: x-large;
+}
+
+
+.btn {
+    background-color: rgb(17, 16, 16);
+    font-size: 15px;
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 1px solid  gray;
+    transition-duration: 0.4s;
+    color: white;
+      font-family: 'Shadows Into Light',
+      cursive;
+        font-size: larger;
+
+}
+
+.btn:hover{
+ background-color:white;
+ color: black;
+}
+
+.num-facts{
+    margin: 30px;
+    max-width: 400px;
+    text-align: center;
+    font-size: larger;
+    background-color:rgb(19, 17, 17);
+    padding: 10px;
+    color: white;
+     font-family: 'Shadows Into Light',
+     cursive;
+}
+
+@media (min-width: 1001px) {
+    section{
+        margin-left: 500px;
+        margin-right: 500px;
+        width: 600px;
+        height: 350px;
+        border: 2px solid black;
+    }
+    .num-facts{
+        width: 450px;
+        height: 89px;
+        padding: 15px;
+        margin-left: 70px;
+        margin-right: 50px;
+        font-size: 1.5em;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+   section{
+       margin: 0 150px;
+   }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    h2{
+        font-size: 2em;
+       font-weight: 900;
+    }
+    section{
+        margin: 30px 50px;
+        height: 250px;
+    }
+    .form-control{
+        padding: 10px 20px; 
+        width: 100px;
+    }
+    .num-facts{
+        padding: 20px;
+        width: 300px;
+        margin-left: 70px;
+       } 
+}
+
+@media (min-width: 450px) and (max-width: 599px) {
+    h2{
+        font-size: 2rem;
+    }
+    section{
+        margin: 30px 50px 50px 70px;
+        width: 300px;
+    }
+    .form-control{
+        padding: 3px 10px; 
+        width: 100px;
+    }
+    .btn{
+        padding: 5px 8px;
+        font-size: medium;
+    }
+}
